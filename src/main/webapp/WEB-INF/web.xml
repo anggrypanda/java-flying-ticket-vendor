@@ -1,0 +1,17 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+
+http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+        <servlet>
+            <servlet-name>FlightView</servlet-name>
+            <servlet-class>view.FlightView</servlet-class>
+        </servlet>
+
+        <servlet-mapping>
+            <servlet-name>FlightView</servlet-name>
+            <url-pattern>/tat</url-pattern>
+        </servlet-mapping>
+</web-app>
